@@ -148,3 +148,62 @@ section.bottom div.video button {
     text-transform: capitalize;
     border-radius: 100px;
 }
+@media all and (max-width:750px) {
+    section.mid div.swiper {
+        /* border: 1px solid #fff; */
+        width: 100%;
+        height: 150px;
+    }
+    section.mid div.swiper img {
+        width: 100%;
+        height: 150px;
+    }
+    section.mid div.swiper div.swiper-button-prev {
+        color: transparent
+    }
+    section.mid div.swiper div.swiper-button-next {
+        color: transparent;
+    }
+    section.top div.logo {
+        width: 60px;
+        height: 60px;
+    }
+    section.top div.title span{
+        font-size: 30px;
+    }
+    section.top div.nav {
+        top: 70px;
+    }
+    section.top {
+        height: 120px;
+    }
+    section.mid {
+        height: 180px;
+    }
+    section.bottom div.video {
+        margin: 0;
+        padding: 0;
+    }
+    section.bottom div.poster img {
+        padding: 0;
+        margin: 0;
+        width: 80px;
+        height: 100px;
+    }
+    section.bottom div.poster span {
+        left: 85px;
+        font-size: 10px;
+    }
+    section.bottom div.poster span.title {
+        top: 0px;
+    }
+    section.bottom div.poster span.description {
+        top: 25px;
+    }
+    section.bottom div.poster button {
+        top: 75px;
+        left: 85px;
+        font-size: 15px;
+        height: 30px;
+    }
+}
